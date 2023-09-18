@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    font-family: "Poppins", sans-serif;
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2rem;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+    padding-left: 5rem;
+}
+
+header p {
+    font-size: 15px;
+    padding-left: 5rem;
+}
+header .icons{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1em;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.featured-books {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-books h2 {
+    font-size: 24px;
+}
+
+.book {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.book img {
+    width: auto;
+    height: 200px;
+}
+
+.book h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.book p {
+    font-size: 16px;
+}
+
+.book button {
+    background-color: #FF3FA4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.book button:hover{
+    background-color: #4CAF50;
+}
+.about-us {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
